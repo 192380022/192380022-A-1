@@ -1,0 +1,156 @@
+html{
+    scroll-behavior: smooth;
+}
+.navigation-bar{
+    position: sticky;
+    top: 0px;
+    display: flex;
+    background-color: rgb(59, 58, 58);
+}
+nav.navigation-bar > a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+
+}
+nav.navigation-bar > a:hover{
+    background-color: white;
+    transition-duration: 0.2s;
+    color: black;
+}
+.hero{
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    height: 110vh;
+    color: white;
+    scroll-padding-top: 13px;
+    text-align: center;
+    
+}
+body{
+    margin: 0px;
+    font-family: Poppins;
+}
+.align-center{
+    padding-top: 200px;
+}
+.display-1{
+    font-size: 58px;
+}
+.btn{
+    padding: 14px 30px;
+    font-size: 20px;
+}
+.buton-1{
+    background-color: red;
+    color: white;
+}
+.buton-2{
+    background-color: black;
+    color: white;
+}
+button#forexlpore:hover{
+    background-color: black;
+}
+button#forcontact:hover{
+    background-color: red;
+}
+.about-1{
+    text-align: center;
+}
+.about-line{
+    margin: 15px 470px;
+}
+.box{
+    padding:30px;
+    margin:10px;
+    font-size: 14px;
+     width: 600px;
+    text-align: left;
+}
+.box-2{
+    padding:30px;
+    margin:10px;
+     width: 600px;
+    text-align: right;
+}
+.box-image{
+    display: flex;
+}
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float:right;
+}
+.service{
+    width: 33%;
+    float: left;
+    text-align: center;
+    font-size: small;
+    font-size: 15px;
+    padding-top: 3%;
+}
+.ser{
+    text-align: center;
+}
+.ser-line{
+    margin: 15px 470px;
+}
+.serv{
+    background-color: rgb(228, 247, 240);
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.ser-heading{
+    display: flex;
+}
+.cont-heading{
+    text-align: center;
+}
+.cont-line{
+    margin: 15px 470px;
+}
+.for-button{
+    font-size: 20px;
+    padding:15px 30px;
+    color: white;
+    background-color: rgb(6, 131, 6);
+    border: green;
+    margin-right: 420px;
+}
+.for-button:hover{
+    background-color: rgb(122, 248, 149);
+    color: black;
+}
+.end-div{
+    text-align: center;
+    height: 100px;
+    background-color: rgb(59, 58, 58); 
+}
+.for-p{
+    color: white;
+    padding: 3%;
+}
+.cont-style{
+    padding-left: 300px;
+}
+.cont-1{
+    text-align: center;
+}
+input{
+    width: 70%;
+    padding: 5px;
+    box-sizing: border-box ;
+    margin: 5px 0;
+    resize: vertical;
+    
+}
+.tex-ar{
+    margin:  5px;
+    padding: 5px;
+    height: 150px;
+    width: 70%;
+}
